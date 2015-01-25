@@ -167,24 +167,24 @@ Alternatively, configure Shiro's SecurityManager to use Shiro's built-in session
 Include the following in your `pom.xml`:
 
     <dependency>
-      <groupId>io.ifar</groupId>
+      <groupId>io.ifar.dw-shiro-bundle</groupId>
       <artifactId>dw-shiro-bundle</artifactId>
       <version>1</version>
     </dependency>
 
-### Snapshots
+### Releases
 
-Snapshots are available from the [Sonatype OSS Snapshots repository](https://oss.sonatype.org/content/repositories/snapshots/):
+Releases are available from the [Sonatype OSS Releases repository](https://oss.sonatype.org/content/repositories/releases/):
 
     <repository>
       <id>sonatype-oss</id>
-      <name>Sonatype OSS Snapshot Repository</name>
-      <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+      <name>Sonatype OSS Release Repository</name>
+      <url>https://oss.sonatype.org/content/repositories/releases/</url>
       <snapshots>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
       </snapshots>
       <releases>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
       </releases>
     </repository>
 
